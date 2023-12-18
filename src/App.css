@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+
+.navbar{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LogoR6 {
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+
+
+
+.navbar ul li{
+  display: inline-block;
+  margin-right:35px ;
+}
+
+.navbar a{
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.navbar a:hover{
+  color: #f69a0b;
+  text-decoration:overline;
+}
+.looping-video{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    z-index: -1;
+  }
+
+
+.Sobre{
+ margin-top: 0%;
+}
+
+.Solid{
+width: 600px;
+}
+
+h2{
+  color: #f69a0b;
+}
+
+.Saiba {
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  background-color: #f69a0b;
+  border-radius: 5px;
+  width: 100px;
+  padding: 7px 20px;
+  transition: 0.4s;
+  text-transform: uppercase;
+  border: 1px solid #f69a0b;
+}
+.Saiba:hover{
+  background: #211901;
+  color: #f69a0b;
+  border:1px solid #f69a0b;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8%;
+}
+
+.IconSolid{
+
+  width: 80px;
+
+}
+
+
